@@ -1,1 +1,6 @@
-Microservice Python 
+File structure for Software enginerring project :
+> Make File
+> requirement.txt
+> source code
+> test
+> docker
