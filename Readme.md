@@ -11,3 +11,5 @@ SWE Project :
 
 > install all package through make file 'make install'. Specifying each package with version number( to make sure project run after 2 years also) 'pip freeze | less' 
 
+> created a Automatic work flow using Github actions. When a commit happen in this file CI with automatically trigger. Created a status badge and pasted on readme file. 
+
