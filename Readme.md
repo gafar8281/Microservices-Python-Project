@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/gafar8281/Microservices-Python-Project/actions/workflows/devops.yml/badge.svg)](https://github.com/gafar8281/Microservices-Python-Project/actions/workflows/devops.yml)
+
 SWE Project :
 
 > created a virtual ven "virtualenv ~/.venv"
