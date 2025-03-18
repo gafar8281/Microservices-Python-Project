@@ -15,13 +15,13 @@ jobs:
         
     - name: Lint with pylint
       run: |
-        #make lint
+        make lint
     - name: Test with pytest
       run: |
         #make test
     - name: Format code
       run: |
-        #make format
+        make format
     - name: Build Container
       run: |
         #make build
