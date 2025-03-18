@@ -20,6 +20,7 @@ SWE Project :
 
 > lint is used to find bad code, that tipically throw error in future development. So, using lint can be helpfull.
 
+> If there is any error, eg: error in lint . CI will throw error during build.
 
 
 
