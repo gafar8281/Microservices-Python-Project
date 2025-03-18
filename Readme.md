@@ -22,6 +22,8 @@ SWE Project :
 
 > If there is any error, eg: error in lint . CI will throw error during build.
 
+> created test cases for script file.
+
 
 
 

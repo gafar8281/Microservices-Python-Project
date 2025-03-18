@@ -10,6 +10,10 @@ lint:
 	#py lint
 	pylint --disable=R,C *.py mylib/*.py
 
+test:
+	#test code
+	python -m pytest -vv --cov=mylib test_script.py
+
 deploy:
 	#deploy
 
