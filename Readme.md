@@ -24,7 +24,15 @@ SWE Project :
 
 > created test cases for script file.
 
+21/03
+> Build cli using python fire library. It make easier to run and manage scripts, pass arguments, and execute functions directly from the terminal. Giving permission "chmod +x cli-fire.py" .
 
+> "./cli-fire.py --help" , "./cli-fire.py --name Barack_Obama" 
 
+> "./cli-fire.py"  run command
+
+> ipython library used to run pyhton code in command line. Use to test function & handy tool.
+
+> Created a new function to search in wikipedia by name. 
 
 
