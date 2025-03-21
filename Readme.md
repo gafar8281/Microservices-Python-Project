@@ -35,4 +35,7 @@ SWE Project :
 
 > Created a new function to search in wikipedia by name. 
 
+> Created a webservice using Fastapi and created api endpoints. Written test cases for FastAPI endpoints.
+
+> Created a new NLP function in script. To find the phrases
 
