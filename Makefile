@@ -12,7 +12,7 @@ lint:
 
 test:
 	#test code
-	python -m pytest -vv --cov=mylib test_script.py
+	python -m pytest -vv --cov=mylib --cov=main test_*.py
 
 deploy:
 	#deploy

@@ -39,3 +39,8 @@ SWE Project :
 
 > Created a new NLP function in script. To find the phrases
 
+24/03
+> Created test cases for fast API web app.
+
+
+
