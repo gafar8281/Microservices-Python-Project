@@ -42,5 +42,14 @@ SWE Project :
 24/03
 > Created test cases for fast API web app.
 
+> Created a docker image for Fast api and run the docker image.
+
+> Docker file :
+Python slim is small image.
+
+> Docker commands : 
+"docker build " - build image  or  "docker build -t deploy-fastapi" - build image with title.  
+"docker run -p 127.0.0.1:8080:8080 c1a36ab4da9d" - run image
+"docker image ls" - list images
 
 
