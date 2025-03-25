@@ -14,6 +14,14 @@ test:
 	#test code
 	python -m pytest -vv --cov=mylib --cov=main test_*.py
 
+build:
+	# build docker image
+	docker build -t deploy-fastapi .
+
+run:
+	# run docker file
+	docker run -p 127.0.0.1:8080:8080 53f8faee6c25
+
 deploy:
 	#deploy
 
