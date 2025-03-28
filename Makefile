@@ -28,7 +28,7 @@ run:
 	
 deploy:
 	#deploy
-	aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 405399979532.dkr.ecr.ap-south-1.amazonaws.com
+	aws ecr get-login-password --region ap-south-1 | docker login --username AbdulGafar --password-stdin "Gafar,6w2}N45" 405399979532.dkr.ecr.ap-south-1.amazonaws.com
 	docker build -t fastapi-microservice .
 	docker tag fastapi-microservice:latest 405399979532.dkr.ecr.ap-south-1.amazonaws.com/fastapi-microservice:latest
 	docker push 405399979532.dkr.ecr.ap-south-1.amazonaws.com/fastapi-microservice:latest
