@@ -1,5 +1,7 @@
 [![Python application test with Github Actions](https://github.com/gafar8281/Microservices-Python-Project/actions/workflows/devops.yml/badge.svg)](https://github.com/gafar8281/Microservices-Python-Project/actions/workflows/devops.yml)
 
+[![Python application test with Github Actions]https://codebuild.ap-south-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiZm8wai8ydXpyY0Z4NDl5TkRQVVFncWFpNWo4ZTEwcDBQRkUrZ0tPcUtuZXJuK0tNNjczSkhXa2Jwd0FnVW9KZkFqVytULzl0d29BZUkzU0lybTNXWlNZPSIsIml2UGFyYW1ldGVyU3BlYyI6InF2VEplcHdKKzJYSXJRbm4iLCJtYXRlcmlhbFNldFNlcmlhbCI6Mn0%3D&branch=main
+
 SWE Project :
 
 > created a virtual ven "virtualenv ~/.venv"
