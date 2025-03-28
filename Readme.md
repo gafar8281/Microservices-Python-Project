@@ -64,3 +64,16 @@ code contain authenticate, build, tag image and push.
 
 > Code build - same as github action for CI.
 created a buildspec.yml to manage commands same as github actions. Execute start build
+
+> If Code build succed image will automatically updated inside ECR. Now we got container inside ECR Continous Deliver (CD).
+
+>Now we can diploy  Containers in various methods : EC2, App runner etc.
+
+> Here we use App runner (PaaS). Any new changes come in ECR , App runner will automatically detect and deploy the application.
+
+> Continous Integration (CI) / Continous Deployment (CD)
+
+
+🎉🎉🎉 Python - Microservice - CI/CD - Project Completed 🎉🎉🎉🎉
+
+
