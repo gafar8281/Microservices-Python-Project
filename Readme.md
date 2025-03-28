@@ -63,4 +63,4 @@ Python slim is small image.
 code contain authenticate, build, tag image and push.
 
 > Code build - same as github action for CI.
-created a buildspec.yml to manage commands same as github actions.
+created a buildspec.yml to manage commands same as github actions. Execute start build
