@@ -51,6 +51,16 @@ Python slim is small image.
 "docker build . " - build image  or  "docker build -t deploy-fastapi ." - build image with title.  
 "docker run -p 127.0.0.1:8080:8080 c1a36ab4da9d" - run image
 "docker image ls" - list images
-
+"docker ps -a" - list conatiners
 
 > "make build" to build image  & make run
+
+
+28/03
+> Deploying application on aws. Using Code build, ECR, App runner.
+
+> Created a repository inside AWS ECR and copy the auth code and paste inside make deploy.
+code contain authenticate, build, tag image and push.
+
+> Code build - same as github action for CI.
+created a buildspec.yml to manage commands same as github actions.
