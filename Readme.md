@@ -28,7 +28,28 @@ make install</pre>
 Makefile automates all important commands like installing dependencies, formatting code, running tests, and building Docker images.
 
 
+## Testing
+- Written using pytest and pytest-cov for code coverage
+- Run tests:
+<pre>make test</pre> 
 
+
+## Code Quality
+- black for code formatting
+- pylint for code linting
+<pre>make format
+make lint</pre> 
+CI will fail if linting or formatting checks do not pass.
+
+## CLI Tool with Fire
+- fire is used to run Python functions from the terminal.
+<pre>chmod +x cli-fire.py
+
+# View help
+./cli-fire.py --help
+
+# Search Wikipedia
+./cli-fire.py --name Barack_Obama</pre> 
 
 
 
