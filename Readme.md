@@ -52,4 +52,26 @@ CI will fail if linting or formatting checks do not pass.
 ./cli-fire.py --name Barack_Obama</pre> 
 
 
+## Docker Support
+- Built and tested Docker container locally
+<pre>make build
+make run</pre>
+
+
+## CI/CD Pipeline
+### GitHub Actions (CI)
+- Automated workflow using .github/workflows/devops.yml
+- Runs lint, format, test, and build on every commit
+
+### AWS CodeBuild (CI)
+- Mirroring GitHub Actions CI inside AWS
+- Managed with buildspec.yml
+- Automatically pushes Docker image to AWS ECR
+
+## Deployment on AWS
+- ECR (Elastic Container Registry)
+- Created ECR repo and pushed image via CodeBuild
+### App Runner (CD)
+- Connected ECR with App Runner
+- Auto-deploy on every new ECR image update
 
