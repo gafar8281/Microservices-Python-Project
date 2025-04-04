@@ -2,7 +2,7 @@
 
 [![Python application test with Github Actions](https://codebuild.ap-south-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiZm8wai8ydXpyY0Z4NDl5TkRQVVFncWFpNWo4ZTEwcDBQRkUrZ0tPcUtuZXJuK0tNNjczSkhXa2Jwd0FnVW9KZkFqVytULzl0d29BZUkzU0lybTNXWlNZPSIsIml2UGFyYW1ldGVyU3BlYyI6InF2VEplcHdKKzJYSXJRbm4iLCJtYXRlcmlhbFNldFNlcmlhbCI6Mn0%3D&branch=main)
 
-🚀 Python Microservices Project with CI/CD
+> Python Microservices Project with CI/CD
 
 📖 Project Overview :
 This project is a fully functional Python microservice application that covers the full software engineering lifecycle:
