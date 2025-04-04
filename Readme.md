@@ -75,3 +75,19 @@ make run</pre>
 - Connected ECR with App Runner
 - Auto-deploy on every new ECR image update
 
+
+## Tech Stack
+- Python 
+- FastAPI
+- Fire (CLI)
+- Docker
+- Pytest
+- Black, Pylint
+- GitHub Actions
+- AWS CodeBuild, ECR, App Runner
+
+
+## Conclusion
+🎉 Python Microservice + CI/CD + Docker + AWS project completed successfully!
+
+
